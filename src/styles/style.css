@@ -1,0 +1,13 @@
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 5px;
+  position: relative;
+}
+
+#game-board img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
