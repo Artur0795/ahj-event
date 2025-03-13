@@ -10,4 +10,26 @@
   width: 100px;
   height: 100px;
   position: absolute;
+  pointer-events: none; /* Это позволит кастомному курсору отображаться */
+}
+
+body {
+  cursor: none; /* Скрываем стандартный курсор */
+}
+
+.custom-cursor {
+  position: absolute;
+  width: 32px; /* Ширина курсора */
+  height: 32px; /* Высота курсора */
+  background-image: url('../img/hammer-icon.png'); /* Путь к изображению молотка */
+  background-size: contain;
+  /* pointer-events: none; */ /* Уберите или закомментируйте эту строку */
+}
+
+.scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: black; /* Цвет текста */
 }
