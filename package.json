@@ -1,5 +1,5 @@
 {
-  "name": "webpack5",
+  "name": "event",
   "version": "1.0.0",
   "description": "[Руководство по настройке Webpack](https://webpack.js.org/guides/)\r [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)",
   "main": "index.js",
@@ -49,5 +49,13 @@
   "keywords": [],
   "jest": {
     "testEnvironment": "jsdom"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur0795/ahj-event.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Artur0795/ahj-event/issues"
+  },
+  "homepage": "https://github.com/Artur0795/ahj-event#readme"
 }

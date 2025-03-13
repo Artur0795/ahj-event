@@ -14,13 +14,12 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(jpg|png|gif)$/i,
+        test: /\.(png|jpg|gif)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[hash].[ext]',
-              outputPath: 'images/',
+              name: '[path][name].[ext]',
             },
           },
         ],
@@ -36,4 +35,5 @@ module.exports = {
     static: './dist',
     open: true,
   },
+  devtool: 'source-map',
 };
