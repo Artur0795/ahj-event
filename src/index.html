@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Гномы</title>
+  <title>DOM - Гномы</title>
 </head>
+
 <body>
   <h1>Игра с перемещением гномов</h1>
   <div id="game-board" class="game-board"></div>
+  <section class="goblin">
+    <div class="results">SCORE: <span class="score">0</span> MISS: <span class="miss">0</span> of 5</div>
+    <div class="row">
+      <div class="col">
+        <img src="img/goblin.png" class="head">
+      </div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+  </section>
+  <div id="goblin-container"></div>
+  <div id="hammer-cursor"></div>
 </body>
+
 </html>

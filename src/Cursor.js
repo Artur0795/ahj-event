@@ -4,7 +4,6 @@ class Cursor {
         this.cursorElement.className = 'custom-cursor';
         document.body.appendChild(this.cursorElement);
         
-        // Устанавливаем начальную позицию курсора
         this.updateCursorPosition({ clientX: window.innerWidth / 2, clientY: window.innerHeight / 2 });
         
         document.addEventListener('mousemove', (e) => this.updateCursorPosition(e));
@@ -18,5 +17,4 @@ class Cursor {
     }
 }
 
-// Экспортируем класс
-export { Cursor }; 
+export default Cursor;
