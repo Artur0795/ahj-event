@@ -11,9 +11,9 @@ const scoreboard = document.createElement('div');
 scoreboard.className = 'scoreboard';
 document.body.appendChild(scoreboard);
 
-//const updateScoreCallback = (score) => {
-//    scoreboard.innerText = 'Счет: ' + score;
-//};
+const updateScoreCallback = (score) => {
+    scoreboard.innerText = 'Счет: ' + score;
+};
 
 for (let i = 0; i < gridSize * gridSize; i++) {
   const cell = document.createElement('div');
